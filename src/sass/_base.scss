@@ -1,0 +1,31 @@
+// main: main.scss
+
+* {
+  font-family: 'Open Sans', sans-serif;
+  color: $ink-80;
+  &.article-body {
+    font-family: 'Merriweather', serif;
+  }
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Vollkorn', serif;
+  color: $ink-70
+}
+
+a {
+  text-decoration: none;
+  color: $blue-50;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  li {
+    a { color: $ink-70 }
+    ul {
+      display: none;
+    }
+  }
+}

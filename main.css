@@ -1,0 +1,35 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+/* Photon Colors SCSS Variables v3.0.1 */
+* {
+		font-family: 'Open Sans', sans-serif;
+		color: #202340;
+}
+
+*.article-body {
+		font-family: 'Merriweather', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+		font-family: 'Vollkorn', serif;
+		color: #363959;
+}
+
+a {
+		text-decoration: none;
+		color: #0a84ff;
+}
+
+ul {
+		list-style: none;
+		padding: 0;
+}
+
+ul li a {
+		color: #363959;
+}
+
+ul li ul {
+		display: none;
+}
