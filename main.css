@@ -2,6 +2,40 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 /* Photon Colors SCSS Variables v3.0.1 */
+#landing {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: row;
+}
+
+#landing h1.megatext {
+		font-family: 'Open Sans';
+		font-size: 150px;
+		color: #005a71;
+}
+
+#landing .presentation h3 {
+		font-size: 40px;
+		margin: 0;
+}
+
+#landing .presentation p {
+		width: 500px;
+		text-align: justify;
+}
+
+#landing > iframe {
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		position: absolute;
+		height: 100vh;
+		width: 100vw;
+		z-index: -10;
+}
+
 * {
 		font-family: 'Open Sans', sans-serif;
 		color: #202340;

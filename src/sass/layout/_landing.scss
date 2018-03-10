@@ -1,0 +1,32 @@
+// main: _layout.scss
+
+#landing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  h1.megatext {
+    font-family: 'Open Sans';
+    font-size: 150px;
+    color: $teal-80;
+  }
+
+  .presentation {
+    h3 {
+      font-size: 40px;
+      margin: 0;
+    }
+    p {
+      width: 500px;
+      text-align: justify;
+    }
+  }
+
+  > iframe {
+    top: 0; bottom: 0; left: 0; right: 0;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: -10
+  };
+}
